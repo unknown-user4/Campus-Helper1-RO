@@ -175,8 +175,8 @@ export default async function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in-up">
-                Your Campus,
-                <span className="text-[#d4af37]"> Connected</span>
+                Campusul Tau,
+                <span className="text-[#d4af37]"> Esti conectat</span>
               </h1>
               <p className="text-xl text-gray-200 mb-8 animate-fade-in-up" style={{ animationDelay: '0.08s' }}>
                 Find jobs, buy and sell materials, and connect with your university community all in one place.
