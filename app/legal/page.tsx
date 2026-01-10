@@ -6,21 +6,21 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 
 const policies = [
   {
-    title: 'Terms of Service',
-    description: 'Understand the rules for using Campus Helper, posting jobs, and buying or selling items.',
+    title: 'Termeni și condiții',
+    description: 'Înțelege regulile de utilizare Campus Helper, publicarea anunțurilor de joburi și cumpărarea sau vânzarea de produse.',
     href: '/legal/terms',
     icon: FileText,
   },
   {
-    title: 'Privacy Policy',
-    description: 'See how we handle your data, from account details to messages and notifications.',
+    title: 'Politica de confidențialitate',
+    description: 'Vezi cum îți gestionăm datele, de la detaliile contului la mesaje și notificări.',
     href: '/legal/privacy',
     icon: ShieldCheck,
   },
 ];
 
 export const metadata = {
-  title: 'Legal | Campus Helper',
+  title: 'Informații legale | Campus Helper',
 };
 
 export default function LegalPage() {
@@ -36,10 +36,10 @@ export default function LegalPage() {
             <div className="absolute right-0 top-6 h-60 w-60 rounded-full bg-gradient-to-br from-white/40 via-transparent to-[#d4af37]/25 blur-3xl opacity-70 animate-float" />
           </div>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <p className="uppercase text-sm tracking-widest text-[#f4d03f] font-semibold mb-2">Legal</p>
-            <h1 className="text-4xl font-bold mb-3">Policies that keep Campus Helper safe</h1>
+            <p className="uppercase text-sm tracking-widest text-[#f4d03f] font-semibold mb-2">Informații legale</p>
+            <h1 className="text-4xl font-bold mb-3">Politici care mențin Campus Helper în siguranță</h1>
             <p className="text-lg text-gray-200 max-w-3xl">
-              Review the terms and privacy details that guide how the platform works for everyone in the campus community.
+              Consultă termenii și detaliile de confidențialitate care ghidează modul în care platforma funcționează pentru toți membrii comunității din campus.
             </p>
           </div>
         </section>
@@ -63,7 +63,7 @@ export default function LegalPage() {
                   </CardHeader>
                   <CardContent className="pt-0">
                     <Link href={policy.href} className="inline-flex items-center text-[#1e3a5f] font-semibold hover:text-[#d4af37]">
-                      <span>Read {policy.title}</span>
+                      <span>Citește {policy.title}</span>
                       <span className="ml-2">→</span>
                     </Link>
                   </CardContent>
@@ -73,10 +73,10 @@ export default function LegalPage() {
           </div>
 
           <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm space-y-3 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
-            <h2 className="text-2xl font-semibold text-[#1e3a5f]">Questions about our policies?</h2>
+            <h2 className="text-2xl font-semibold text-[#1e3a5f]">Întrebări despre politicile noastre?</h2>
             <p className="text-gray-700">
-              Reach out through <Link href="/support/contact" className="text-[#1e3a5f] font-semibold hover:text-[#d4af37]">Contact</Link> and include the section
-              you are asking about so we can respond with clarity or make updates where needed.
+              Contactează-ne prin <Link href="/support/contact" className="text-[#1e3a5f] font-semibold hover:text-[#d4af37]">pagina de contact</Link> și include secțiunea
+              despre care întrebi, ca să putem răspunde clar sau să facem actualizări acolo unde este necesar.
             </p>
           </div>
         </section>
